@@ -1,0 +1,19 @@
+{
+  "name": "movie_ratings_api",
+  "version": "1.0.0",
+  "description": "Web app to provide the movie ratings using API call and express framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deexith Mysore Nagaraj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "js-alert": "^1.0.4",
+    "popups": "^1.1.3",
+    "request": "^2.85.0"
+  }
+}
