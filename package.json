@@ -4,7 +4,8 @@
   "description": "Web app to provide the movie ratings using API call and express framework",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
   },
   "author": "Deexith Mysore Nagaraj",
   "license": "ISC",
