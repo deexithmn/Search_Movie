@@ -1,9 +1,7 @@
 var express = require("express");
 var request = require("request");
 var bodyParser = require("body-parser");
-var window = require("js-alert");
-
- 
+// import * as window from 'js-alert';
 
 
 var app = express();
