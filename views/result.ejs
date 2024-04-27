@@ -1,28 +1,35 @@
 <% include partials/header %>
-
+<br>
 <h1>Movie Details</h1>
-
 <a href="/" id="top">Search again</a>
 
-<div class="result">
-    <div class="list">
-       <% for(var i=0;i<dataPasrsed["Search"].length;i++){ %>
-       
-            <% var temp = dataPasrsed["Search"][i]; %>
-            <p id="border"></p>
-            <strong><li>Title: <%= temp["Title"] %> </li></strong>
-            <li>Year: <%= temp["Year"] %> </li>
-            <li>IMDB-ID: <%= temp["imdbID"] %> </li>
-            <li>Year: <%= temp["Year"] %> </li>
-            <% if(temp["Poster"]=== "N/A"){ %>
-                <li class="poster">Poster isn't Available </li>
-                <% } else{ %>
-                    <li><img src = "<%=temp["Poster"] %>" > </li>
-                <% } %>
-           <% } %>
-        </div>
+
+<div class="ui centered grid" id="padding">
+
+    <% for(var i=0;i<dataPasrsed["Search"].length;i++){ %>
+
+    <% var temp = dataPasrsed["Search"][i]; %>
+    
+    <div class="four wide column">
+        <strong>
+            <li>Title: <%= temp["Title"] %> </li>
+        </strong>
+        <li>Year: <%= temp["Year"] %> </li>
+        <li>IMDB-ID: <%= temp["imdbID"] %> </li>
+        <li>Year: <%= temp["Year"] %> </li>
+        <br>
+        <% if(temp["Poster"]=== "N/A"){ %>
+        <li class="poster">Poster isn't Available </li>
+        <% } else{ %>
+        <li><img src="<%=temp["Poster"] %>"> </li>
+    </div>
+    <% } %>
+
+    <% } %>
+
+
 </div>
 
 <a href="#top">Top</a>
-<!--<P>Check out your movie results!!</P>-->
+
 <% include partials/footer %>

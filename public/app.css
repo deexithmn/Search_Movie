@@ -1,82 +1,94 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    background: #272727;
-    color: #D2C89F;
-    text-align: center;
-    font-weight: bold;
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #272727;
+  color: #d2c89f;
+  text-align: center;
+  font-weight: bold;
 }
 
-h1{
-    color: #D2C8FF;
-    text-shadow: 2px 2px 5px white;
-    text-align: center;
-}
-ul{
-    width:auto;
-    text-align: center;
+h1 {
+  color: #d2c8ff;
+  text-shadow: 2px 2px 5px white;
+  text-align: center;
 }
 
-
-input{
-    color: black;
-    background-color: #93E196;
-    height: 22px;
-    vertical-align: middle;
+ul {
+  width: auto;
+  text-align: center;
 }
 
-button{
-    color: white;
-    background-color: darkgrey;
-    height: 25px;
-    vertical-align: middle;
+#padding {
+  padding: 10px;
 }
 
-li{
-    list-style-position: outside;
-    list-style-type: none;
-    text-align: center;
+input {
+  color: black;
+  background-color: #93e196;
+  height: 22px;
+  vertical-align: middle;
 }
 
-a{
-    color:white;
-    text-decoration: underline;
-}
-span{
-    background:none;
-    color:#3A3131;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    margin-top: 6px;
-    height: 25px;
-    font-size: 25px;
-    vertical-align: middle;
+button {
+  color: white;
+  background-color: darkgrey;
+  height: 25px;
+  vertical-align: middle;
 }
 
-.result{
-    background:none; 
-    margin: auto;
-    width: auto;
-    padding-top: 10%;
-    text-align:center;
+li {
+  list-style-position: outside;
+  list-style-type: none;
+  text-align: center;
 }
 
-.poster{
-    width: auto;
-    text-align:right;
-}
-#border{
-    border-top: 2px white solid;
-    width: 100%;
+a {
+  color: white;
+  text-decoration: underline;
 }
 
-.home{
-    margin: auto;
-    padding: 15% 15%;
-    height: 100px;
-    width: auto;
-    background-size: cover; 
-	background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 60, 1.0), rgba(255, 255, 255, 0.5)),
-                      url("https://www.musicboxtheatre.com/sites/default/files/image-bin/sidebar-cta/group-sales-rentals.jpg");
+span {
+  background: none;
+  color: #3a3131;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  margin-top: 6px;
+  height: 25px;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.result {
+  background: none;
+  margin: auto;
+  width: auto;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.poster {
+  width: auto;
+  text-align: right;
+}
+
+#border {
+  border-top: 2px rgb(20, 18, 18) solid;
+  width: 100%;
+}
+
+#top {
+  border-top: 2px white solid;
+  width: 100%;
+  padding: 5px;
+}
+
+.home {
+  margin: auto;
+  padding: 15% 15%;
+  height: 100px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 60, 1), rgba(255, 255, 255, 0.5)),
+    url("https://www.musicboxtheatre.com/sites/default/files/image-bin/sidebar-cta/group-sales-rentals.jpg");
 }
