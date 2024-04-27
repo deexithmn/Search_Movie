@@ -42,7 +42,7 @@ app.get("/ratingsResult", function (req, res) {
     }
 });
 
-
-app.listen(3000, function () {
+// Chage the port address here
+app.listen(process.env.PORT, process.env.IP, function () {
     console.log("Server Running!!")
 });
